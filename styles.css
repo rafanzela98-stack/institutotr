@@ -113,11 +113,9 @@ tbody th small{display:block;font-weight:400;margin-top:.2rem}
 /* cta */
 .cta{background:linear-gradient(135deg,var(--panel),var(--bg2))}
 .cta__in{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:start}
-.form{display:grid;gap:1rem;background:var(--bg);border:1px solid var(--line);padding:1.6rem;border-radius:var(--r)}
-.form label{display:grid;gap:.3rem;font-size:.85rem;color:var(--muted);font-weight:600}
-.form input,.form select,.form textarea{background:var(--panel);border:1px solid var(--line);border-radius:10px;color:var(--text);padding:.7rem .9rem;font:inherit}
-.form input:focus,.form select:focus,.form textarea:focus{outline:2px solid var(--mint);outline-offset:1px}
-.form__status{margin:0;font-size:.9rem;color:var(--mint)}
+.formbox{background:#fff;border-radius:var(--r);overflow:hidden;border:1px solid var(--line)}
+.formbox iframe{display:block;border:0;min-height:900px}
+.formbox__alt{margin:0;padding:.9rem 1rem;background:var(--bg);color:var(--muted);font-size:.85rem;display:flex;gap:.8rem;align-items:center;flex-wrap:wrap}
 
 /* footer */
 .footer{border-top:1px solid var(--line);padding:2rem 0;background:var(--bg2)}
